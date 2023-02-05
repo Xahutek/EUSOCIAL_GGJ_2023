@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27475a36e6bd514aa58b4128aa8db4b, type: 3}
+  m_Name: ResourceLibrary
+  m_EditorClassIdentifier: 
+  profiles:
+  - resource: 1
+    color: {r: 1, g: 0.6528945, b: 0, a: 1}
+    icon: {fileID: 21300000, guid: 85ef103ce80a101428b1504e236bf4cb, type: 3}
+  - resource: 2
+    color: {r: 1, g: 0.95879745, b: 0.8820755, a: 1}
+    icon: {fileID: 21300000, guid: b642b16a25cbf144ba5d274032eeef88, type: 3}
+  - resource: 3
+    color: {r: 1, g: 0.6496437, b: 0.5707547, a: 1}
+    icon: {fileID: 21300000, guid: fc130568a187b0b419f3bf297322e634, type: 3}
+  - resource: 4
+    color: {r: 0.81960785, g: 0.25098035, b: 0.27236837, a: 1}
+    icon: {fileID: 21300000, guid: b7c0f6e415eda1c4aabf88ba564c290f, type: 3}
+  - resource: 5
+    color: {r: 0.40367573, g: 0.81960785, b: 0.25098035, a: 1}
+    icon: {fileID: 21300000, guid: 626ba8188c5b8a14591b4d62a26afb91, type: 3}
+  - resource: 6
+    color: {r: 0.6792453, g: 0.33632842, b: 0.20185119, a: 1}
+    icon: {fileID: 21300000, guid: 47fd5eaec19b1814fb4b5a0be4deb82f, type: 3}
+  - resource: 7
+    color: {r: 0.25098035, g: 0.5480473, b: 0.81960785, a: 1}
+    icon: {fileID: 21300000, guid: 8a498608e72e71d41ab42cacde931e3c, type: 3}
+  - resource: 8
+    color: {r: 0.2710039, g: 0.3962264, b: 0.3821543, a: 1}
+    icon: {fileID: 21300000, guid: 840c877ac10c5e94e9722a836107dc5e, type: 3}
+  ThroneRecipe:
+    name: Royal Blood
+    Inputs: 
+    Outputs: 01000000
+  PlainRecipes:
+  - name: Larva Dome
+    Inputs: 0100000005000000
+    Outputs: 02000000
+  - name: Hybernation Chamber
+    Inputs: 0800000006000000
+    Outputs: 02000000
+  - name: Hatching Halls
+    Inputs: 0200000007000000
+    Outputs: 0300000004000000
+  ForestRecipes:
+  - name: Root Runways
+    Inputs: 0200000005000000
+    Outputs: 03000000
+  - name: Leavecutters
+    Inputs: 03000000
+    Outputs: 05000000
+  - name: Barkchewers
+    Inputs: 04000000
+    Outputs: 06000000
+  AquiferRecipes:
+  - name: Hydration Hive
+    Inputs: 0200000007000000
+    Outputs: 04000000
+  - name: Dewfarmers
+    Inputs: 03000000
+    Outputs: 07000000
+  - name: Claycutters
+    Inputs: 04000000
+    Outputs: 08000000

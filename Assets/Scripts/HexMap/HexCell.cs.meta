@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 93f0f34442b95754889c2bad20232fd7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - library: {fileID: 11400000, guid: 43a40e1b0380f214db4477a891fc650e, type: 2}
+  - text: {instanceID: 0}
+  - SelectionBorder: {instanceID: 0}
+  - ClaimedMarker: {instanceID: 0}
+  - RecipeDisplay: {instanceID: 0}
+  - InputA: {instanceID: 0}
+  - InputB: {instanceID: 0}
+  - OutputA: {instanceID: 0}
+  - OutputB: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
